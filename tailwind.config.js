@@ -1,0 +1,15 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'godot-purple': '#8a2be2', // Tu púrpura de marca
+      },
+    },
+  },
+  plugins: [],
+}

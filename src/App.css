@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Aquí puedes empezar a definir tus estilos de tema claro */
+:root {
+  background-color: #ffffff;
+  color: #1f2937; /* Un gris oscuro para buen contraste */
+}
+
+.accent-purple {
+  color: #4d90c1; /* Azul de Godot. */
+}
