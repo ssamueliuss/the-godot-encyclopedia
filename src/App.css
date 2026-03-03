@@ -9,3 +9,27 @@
 .accent-purple {
   color: #4d90c1; /* Azul de Godot. */
 }
+
+/* Estilo para navegadores basados en Webkit (Chrome, Edge, Safari, Tauri) */
+::-webkit-scrollbar {
+  width: 6px; /* Barra más delgada */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Fondo invisible */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0; /* Color suave (slate-200) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c084fc; /* Cambia a púrpura al pasar el mouse */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 transparent;
+}
