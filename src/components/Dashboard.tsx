@@ -26,7 +26,7 @@ export default function Dashboard() {
             </p>
             
             <div className="flex gap-4">
-              {/* Tarjeta de Nodos - Ahora es un Link al Explorer */}
+              {/* Tarjeta de Nodoss - Ahora es un Link al Explorer */}
               <Link 
                 to="/explorer" 
                 className="bg-slate-50 p-4 rounded-xl flex-1 border border-slate-100 hover:border-purple-200 hover:bg-purple-50/30 transition-all group"
